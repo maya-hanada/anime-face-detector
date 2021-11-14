@@ -1,0 +1,16 @@
+# general setting
+input_size: 640
+backbone_type: 'MobileNetV2'  # 'ResNet50', 'MobileNetV2'
+sub_name: 'retinaface_mbv2'
+
+# network
+out_channel: 64
+
+# anchor setting
+min_sizes: [[16, 32], [64, 128], [256, 512]]
+steps: [8, 16, 32]
+variances: [0.1, 0.2]
+clip: False
+
+# training setting
+weights_decay: !!float 5e-4
