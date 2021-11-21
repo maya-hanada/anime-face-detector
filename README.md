@@ -5,3 +5,7 @@ Anime-face-detector is a machine-learning based face detect engine in Python, us
 
 ## Basic Usage
 > python detect_anime_face.py --cfg_path="./configs/retinaface_mbv2.yaml" --img_path="./test.jpg" --down_scale_factor=1.0
+
+## For more details
+- [About precision](https://hanadamaya.net/face_detection_anime2/)
+- [About Maya Hanada](https://twitter.com/Hanada_Maya)
